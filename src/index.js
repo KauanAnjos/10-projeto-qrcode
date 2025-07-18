@@ -1,10 +1,6 @@
 import prompt from "prompt";
+import mainPrompt from "./prompts/prompt-main";
 
-prompt.start();
+async function main() {}
 
-prompt.get(["username", "password"], (err, result) => {
-  console.log(result);
-  console.log(" Dados pessoasis");
-  console.log("username: " + result.username);
-  console.log("password: " + result.password);
-});
+main();
